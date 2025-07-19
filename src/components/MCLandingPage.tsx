@@ -171,8 +171,8 @@ const MCLandingPage: React.FC<{ onApplyOnline?: () => void }> = ({ onApplyOnline
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-gray-600">BANK</span>
-              <span className="text-2xl font-bold text-red-600">ONE</span>
+              <span className="text-2xl font-bold text-gray-600">DIGITAL</span>
+              <span className="text-2xl font-bold text-red-600">BANK</span>
             </div>
             <div className="text-red-600 font-semibold text-lg tracking-wide">
               MANAGEMENT COMPANY PORTAL
