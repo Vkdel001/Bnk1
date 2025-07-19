@@ -84,8 +84,8 @@ const AuthForm: React.FC<AuthFormProps> = ({ onLoginSuccess }) => {
       <div className="bg-white p-8 rounded-lg shadow-md max-w-md w-full">
         <div className="text-center mb-6">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <span className="text-2xl font-bold text-gray-600">BANK</span>
-            <span className="text-2xl font-bold text-red-600">ONE</span>
+            <span className="text-2xl font-bold text-gray-600">Digital</span>
+            <span className="text-2xl font-bold text-red-600">Bank</span>
           </div>
           <h2 className="text-xl font-semibold text-gray-900">
             {isSignUp ? 'Create Account' : 'Sign In'}
