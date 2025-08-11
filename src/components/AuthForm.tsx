@@ -6,7 +6,7 @@ interface AuthFormProps {
 
 // Xano Signup API call
 async function xanoSignup(email: string, password: string) {
-  const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:d6ALaC-c/auth/signup', {
+  const response = await fetch('https://xbde-ekcn-8kg2.n7e.xano.io/api:d6ALaC-c/auth/signup', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, password }),
@@ -20,7 +20,7 @@ async function xanoSignup(email: string, password: string) {
 
 // Xano Login API call
 async function xanoLogin(email: string, password: string) {
-  const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:d6ALaC-c/auth/login', {
+  const response = await fetch('https://xbde-ekcn-8kg2.n7e.xano.io/api:d6ALaC-c/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, password }),
