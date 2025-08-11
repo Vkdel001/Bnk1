@@ -162,7 +162,7 @@ const AccountOpeningForm: React.FC<AccountOpeningFormProps> = ({ onNext, onBack 
   async function saveCustomerDetails(data: FormData) {
     const token = localStorage.getItem('xano_token');
     const payload = mapToXanoPayload(data);
-    const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:wd7kJ1J1/customer_details', {
+    const response = await fetch('https://xbde-ekcn-8kg2.n7e.xano.io/api:wd7kJ1J1/customer_details', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
